@@ -909,5 +909,54 @@ hr{
     width: 270px;
     margin-left: 50px;
   }
+  .box2-color{
+    display: none;
+  }
+  .box2{
+    height: 1650px;
+    width: 100vw;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .main-news{
+    flex-flow: column wrap;
+    margin-left: 50px;
+  }
+  .main-news img{
+    width: 270px;
+    height: 200px;
 
+  }
+  .text1{
+    width: 270px;
+    margin-top: 20px;
+  }
+  .text{
+    width: 270px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .btn{
+    width: 270px;
+  }
+  .news-line{
+    flex-flow: column wrap;
+    margin-left: 50px;
+  }
+  .news{
+    flex-flow: column wrap;
+    margin-left: 0px;
+  }
+  .news .btn{
+    width: 270px;
+    margin-left: 0px;
+  }
+  .news .btn:first-child{
+    margin-bottom: 40px;
+  }
+  .news img{
+    width: 270px;
+    height: 433px;
+
+  }
 }
