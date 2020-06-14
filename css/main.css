@@ -1003,9 +1003,6 @@ hr{
   }
   .left{
     margin-left: 50px;
-
-
-
   }
   .line{
     width: 330px;
@@ -1017,6 +1014,75 @@ hr{
   .right p{
     justify-content: center;
     display: flex;
+  }
+  .ellipse2{
+    width: 1124px;
+    height: 1124px;
+    left: -693px;
+    top: 624px;
+  }
+  .ellipse1{
+    width: 680px;
+    height: 680px;
+    left: 221px;
+    top: -135px;
+  }
+  .ellipse3{
+    width: 444px;
+    height: 441px;
+    left: 317px;
+    top: 392px;
+  }
+  .ellipse4{
+    width: 444px;
+    height: 444px;
+    left: 87px;
+    top: 353px;
+  }
+  .ellipse5{
+    width: 444px;
+    height: 441px;
+    left: -282px;
+    top: 1508px;
+  }
+  .ellipse6{
+    width: 300px;
+    height: 300px;
+    left: 271px;
+    top: 1086px;
+  }
+  .ellipse7{
+    width: 444px;
+    height: 441px;
+    left: -79px;
+    top: 2172px;
+  }
+  .ellipse8{
+    width: 680px;
+    height: 680px;
+    left: 200px;
+    top: 1590px;
+  }
+  .ellipse9{
+    width: 300px;
+    height: 300px;
+    left: -206px;
+    top: 2757px;
+  }
+  .ellipse10{
+    display: none;
+  }
+  .ellipse11{
+    width: 400px;
+    height: 400px;
+    left: -61.35px;
+    top: 260px;
+  }
+  .ellipse12{
+    width: 600px;
+    height: 600px;
+    left: 210px;
+    top: 399px;
   }
 
 }
