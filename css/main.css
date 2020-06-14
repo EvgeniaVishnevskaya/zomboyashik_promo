@@ -873,15 +873,16 @@ hr{
   .menu.active{
     display: block;
     left: 0;
-    
+
     background-color: #000;
     position: relative;
     z-index: 99;
-    height: 100vh;
+    height: 200vh;
 
 
   }
   .menu.active h2{
     margin-left: 100px;
+    margin-top: 30px;
   }
 }
