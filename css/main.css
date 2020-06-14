@@ -901,6 +901,8 @@ hr{
   }
   body{
     height: 4016px;
+    overflow-x: hidden;
+
   }
   h1{
     margin-left: 50px;
@@ -908,12 +910,13 @@ hr{
   .btn-main{
     width: 270px;
     margin-left: 50px;
+    margin-bottom: 70px;
   }
   .box2-color{
     display: none;
   }
   .box2{
-    height: 1650px;
+    height: 2150px;
     width: 100vw;
     margin-left: 0px;
     margin-top: 0px;
@@ -926,6 +929,13 @@ hr{
     width: 270px;
     height: 200px;
 
+  }
+  p{
+    font-size: 15px;
+
+  }
+  h4{
+    font-size: 15px;
   }
   .text1{
     width: 270px;
@@ -951,7 +961,7 @@ hr{
     width: 270px;
     margin-left: 0px;
   }
-  .news .btn:first-child{
+  .news .btn{
     margin-bottom: 40px;
   }
   .news img{
@@ -959,4 +969,54 @@ hr{
     height: 433px;
 
   }
+  .setka{
+    width: 270px;
+    margin-left: 0px;
+  }
+  hr{
+    width: 270px;
+    margin-left: 50px;
+  }
+  .text-line{
+    width: 270px;
+    margin-left: 50px;
+  }
+  .text-line p:first-child{
+
+    margin-left: 0px;
+  }
+  .box2 .btn-main{
+    border: 2px solid #FF0000;
+  }
+  .box3-color{
+    display: none;
+  }
+  .box3{
+    height: 665px;
+    width: 100vw;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .footter{
+    display: block;
+    height: 235px;
+  }
+  .left{
+    margin-left: 50px;
+
+
+
+  }
+  .line{
+    width: 330px;
+  }
+  .right{
+    margin-left: 0px;
+
+  }
+  .right p{
+    justify-content: center;
+    display: flex;
+  }
+
 }
