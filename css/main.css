@@ -844,6 +844,7 @@ hr{
   }
   .tpl_hamburger path.top, .tpl_hamburger   path.bottom {
     stroke-dasharray: 240px, 950px;
+    background-color: #000;
   }
   .tpl_hamburger path {
     fill: none; stroke: #000; stroke-dashoffset: 0; stroke-linecap: round; stroke-width: 40px;
@@ -851,7 +852,7 @@ hr{
   }
   .tpl_hamburger path.middle {stroke-dasharray: 240px, 240px;}
   .tpl_hamburger path {
-    fill: none; stroke: #000; stroke-dashoffset: 0; stroke-linecap: round; stroke-width: 40px;
+    fill: none; stroke: #FFF; stroke-dashoffset: 0; stroke-linecap: round; stroke-width: 40px;
     transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25) 0s, stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25) 0s;
   }
 
@@ -867,8 +868,20 @@ hr{
   }
   .menu{
     display: none;
+
   }
   .menu.active{
     display: block;
+    left: 0;
+    
+    background-color: #000;
+    position: relative;
+    z-index: 99;
+    height: 100vh;
+
+
+  }
+  .menu.active h2{
+    margin-left: 100px;
   }
 }
