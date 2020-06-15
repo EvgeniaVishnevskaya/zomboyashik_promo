@@ -59,8 +59,7 @@ p{
   width: 100vw;
   height: 144px;
   display: flex;
-  justify-content:
-  space-around;
+  justify-content: space-around;
   position: relative;
   z-index: 3;
 }
@@ -88,6 +87,24 @@ p{
   position: absolute;
   z-index: 2;
   animation: flow 7s linear infinite;
+}
+a{
+  text-decoration: none;
+
+}
+.menu a{
+  color: #FFFFFF;
+
+}
+.menu a:hover{
+  color: #0500FF;
+
+}
+.footter a{
+  color: #FFFFFF;
+}
+.footter a:hover{
+  color: #0500FF;
 }
 .ellipse3{
   width: 444px;
