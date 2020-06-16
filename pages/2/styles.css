@@ -552,6 +552,7 @@ hr{
   .menu.active h2{
     margin-left: 100px;
     margin-top: 30px;
+    margin-bottom: 30px;
   }
   h4{
     margin-bottom: 40px;

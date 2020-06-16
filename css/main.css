@@ -901,6 +901,7 @@ hr{
   .menu.active h2{
     margin-left: 100px;
     margin-top: 30px;
+    margin-bottom: 30px;
   }
   .box1{
     background-color: rgba(0, 0, 0, 0);
@@ -917,7 +918,7 @@ hr{
     margin-bottom: 20px;
   }
   body{
-    height: 4016px;
+    height: 3819px;
     overflow-x: hidden;
 
   }
@@ -1033,58 +1034,56 @@ hr{
     display: flex;
   }
   .ellipse2{
-    width: 1124px;
-    height: 1124px;
+    width: 500px;
+    height: 500px;
     left: -693px;
     top: 624px;
   }
   .ellipse1{
-    width: 680px;
-    height: 680px;
-    left: 221px;
+    width: 400px;
+    height: 400px;
+    left: -212px;
     top: -135px;
   }
   .ellipse3{
-    width: 444px;
-    height: 441px;
-    left: 317px;
+    width: 300px;
+    height: 300px;
+    left: -261px;
     top: 392px;
   }
   .ellipse4{
-    width: 444px;
-    height: 444px;
-    left: 87px;
+    width: 300px;
+    height: 300px;
+    left: -57px;
     top: 353px;
   }
   .ellipse5{
-    width: 444px;
-    height: 441px;
-    left: -282px;
-    top: 1508px;
+    width: 300px;
+    height: 300px;
+    left: 44px;
+    top: 907px;
   }
   .ellipse6{
     width: 300px;
     height: 300px;
-    left: 271px;
-    top: 1086px;
+    left: -211px;
+    top: 1159px;
+
   }
   .ellipse7{
-    width: 444px;
-    height: 441px;
-    left: -79px;
-    top: 2172px;
-  }
-  .ellipse8{
-    width: 680px;
-    height: 680px;
-    left: 200px;
-    top: 1590px;
-  }
-  .ellipse9{
     width: 300px;
     height: 300px;
-    left: -206px;
-    top: 2757px;
+    left: -39px;
+    top: 1646px;
+  }
+  .ellipse8{
+    left: 69px;
+    top: 8px;
+    left: 200px;
+    top: 90px;
+  }
+  .ellipse9{
+    display: none;
   }
   .ellipse10{
     display: none;
@@ -1096,10 +1095,10 @@ hr{
     top: 260px;
   }
   .ellipse12{
-    width: 600px;
-    height: 600px;
-    left: 210px;
-    top: 399px;
+    width: 300px;
+    height: 300px;
+    left: -141px;
+    top: -77px;
   }
 
 }
