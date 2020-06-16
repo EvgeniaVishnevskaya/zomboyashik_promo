@@ -41,7 +41,6 @@
       margin-top: 85px;
       transition: transform 0.6s ease;
 
-
     }
 
     .slider__item {
@@ -49,8 +48,10 @@
       width: 953px;
       height: 626px;
 
-
-
+    }
+    img{
+      border: 4px solid #FFFFFF;
+      border-radius: 10px;
     }
 
     .slider__control {
@@ -132,7 +133,7 @@
       display: flex;
       flex-direction: column;
       margin-bottom: 20px;
-      
+
       padding-bottom: 85px;
 
     }
@@ -169,7 +170,10 @@
       font-family: Regular;
       font-size: 20px;
       color: white;
+      width: 465px;
+
     }
+
     a{
       text-decoration: none;
     }
@@ -178,14 +182,14 @@
 
     }
     .menu a:hover{
-      color: #BD00FF;
+      color: #FFF735;
 
     }
     .footter a{
       color: #FFFFFF;
     }
     .footter a:hover{
-      color: #BD00FF;
+      color: #FFF735;
     }
 
     .menu{
@@ -200,6 +204,14 @@
     }
     .menu h2{
       margin-top: 20px;
+    }
+    .box p{
+      margin-left: 120px;
+      position: relative;
+      z-index: 3;
+    }
+    .box p:last-child{
+      margin-top: 85px;
     }
 
 
@@ -217,22 +229,28 @@
 
     }
     .left{
+      margin-left: 120px;
       margin-top: 60px;
       display: flex;
       flex-direction: column;
     }
     .right{
-      margin-left: -300px;
+      margin-left: 340px;
       margin-top: 40px;
       display: flex;
       flex-direction: column;
+
     }
-    .lineb{
+    .right p{
+      text-align: center;
+
+    }
+    .line{
       display: flex;
-      margin-left: 120px;
-      width: 85vw;
+
+      width: 400px;
     }
-    .lineb p{
+    .line p{
       margin-right: 25px;
       margin-bottom: 25px;
     }
@@ -242,12 +260,57 @@
       margin-bottom: 20px;
     }
     .ellipse1{
+      width: 1124px;
+      height: 1124px;
+      left: -731px;
+      top: -497px;
+      border-radius: 50%;
+      background-color: #FF0000;
+      position: absolute;
+      z-index: 2;
+      animation: flow 7s linear infinite;
+    }
+    .ellipse2{
       width: 843px;
       height: 843px;
-      left: -241px;
-      top: -303px;
+      left: 741px;
+      top: -304px;
       border-radius: 50%;
-      background-color: #0500FF;
+      background-color:  #0500FF;
+      position: absolute;
+      z-index: 2;
+      animation: flow 7s linear infinite;
+    }
+
+    .ellipse4{
+      width: 680px;
+      height: 680px;
+      left: -315px;
+      top: 387px;
+      border-radius: 50%;
+      background-color: #0500FF ;
+      position: absolute;
+      z-index: 2;
+      animation: flow 7s linear infinite;
+    }
+    .ellipse5{
+      width: 680px;
+      height: 680px;
+      left: 1113px;
+      top: 1003px;
+      border-radius: 50%;
+      background-color: #FF0000;
+      position: absolute;
+      z-index: 2;
+      animation: flow 7s linear infinite;
+    }
+    .ellipse6{
+      width: 680px;
+      height: 626px;
+      left: -373px;
+      top: 1050px;
+      border-radius: 50%;
+      background-color: #BD00FF;
       position: absolute;
       z-index: 2;
       animation: flow 7s linear infinite;
