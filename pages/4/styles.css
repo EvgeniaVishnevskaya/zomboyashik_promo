@@ -296,14 +296,82 @@ a{
 .ellipse1{
   width: 680px;
   height: 680px;
+  left: 960px;
+  top: -76px;
   border-radius: 50%;
   background-color: #BD00FF;
   position: absolute;
   z-index: 2;
-  left: 842px;
-  top: -153px;
   animation: flow 7s linear infinite;
 }
+.ellipse2{
+  width: 1124px;
+  height: 1124px;
+  left: -612px;
+  top: 19px;
+  border-radius: 50%;
+  background-color: #FF0000;
+  position: absolute;
+  z-index: 2;
+  animation: flow 7s linear infinite;
+}
+.ellipse3{
+  width: 444px;
+  height: 441px;
+  left: 990px;
+  top: 621px;
+  border-radius: 50%;
+  background-color: #FFF735;
+  position: absolute;
+  z-index: 2;
+  animation: flow 7s linear infinite;
+}
+.ellipse4{
+  width: 692px;
+  height: 687px;
+  left: 122px;
+  top: 731px;
+  border-radius: 50%;
+  background-color: #0500FF;
+  position: absolute;
+  z-index: 2;
+  animation: flow 7s linear infinite;
+}
+.ellipse5{
+  width: 680px;
+  height: 680px;
+  left: 1336px;
+  top: 1233px;
+  border-radius: 50%;
+  background-color: #FFF735;
+  position: absolute;
+  z-index: 2;
+  animation: flow 7s linear infinite;
+}
+.ellipse6{
+  width: 844px;
+  height: 844px;
+  left: 855px;
+  top: 1010px;
+
+  border-radius: 50%;
+  background-color: #FF0000;
+  position: absolute;
+  z-index: 2;
+  animation: flow 7s linear infinite;
+}
+.ellipse7{
+  width: 444px;
+  height: 441px;
+  left: -58px;
+  top: 1700px;
+  border-radius: 50%;
+  background-color: #BD00FF;
+  position: absolute;
+  z-index: 2;
+  animation: flow 7s linear infinite;
+}
+
 @keyframes flow {
 
   0% {
@@ -567,6 +635,50 @@ a{
     height: 1348px;
   }
 
+  .ellipse1{
+    width: 380px;
+    height: 380px;
+    left: -95px;
+    top: -91px;
+  }
+  .ellipse2{
+    width: 524px;
+    height: 524px;
+    left: 188px;
+    top: 172px;
+  }
+  .ellipse3{
+    width: 444px;
+    height: 441px;
+    left: -363px;
+    top: 441px;
+  }
+  .ellipse4{
+    width: 392px;
+    height: 392px;
+    left: 319px;
+    top: 555px;
+  }
+  .ellipse5{
+    width: 180px;
+    height: 180px;
+    left: 530px;
+    top: 1058px;
+  }
+  .ellipse6{
+    width: 244px;
+    height: 244px;
+    left: -107px;
+    top: 1010px;
+  }
+  .ellipse7{
+    width: 244px;
+    height: 244px;
+    left: 184px;
+    top: 918px;
+
+  }
+
 
 }
 @media (max-width: 414px){
@@ -683,6 +795,35 @@ a{
   .right p{
     justify-content: center;
     display: flex;
+  }
+  .ellipse1{
+    left: -95px;
+    top: -19px;
+  }
+  .ellipse2{
+    width: 224px;
+    height: 224px;
+    left: 38px;
+    top: 2104px;
+  }
+  .ellipse3{
+    left: -388px;
+  }
+  .ellipse4{
+    left: -25px;
+    top: 795px;
+  }
+  .ellipse5{
+    left: 175px;
+    top: 1267px;
+  }
+  .ellipse6{
+    top: 1410px;
+  }
+  .ellipse7{
+    left: 105px;
+    top: 1718px;
+
   }
 
 
