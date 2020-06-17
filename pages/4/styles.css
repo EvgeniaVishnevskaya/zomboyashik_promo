@@ -404,40 +404,7 @@ a{
 
 }
 
-@media (min-width: 1920px) {
-  .ellipse1{
-    left: 1172px;
-  }
-  .ellipse3{
-    left: 1394px;
-  }
-  .ellipse4{
-    left: 938px;
-  }
-  .ellipse6{
-    left: 1394px;
 
-  }
-  .ellipse8{
-
-    left: 1056px;
-  }
-  .ellipse12{
-
-    left: 1056px;
-  }
-  .video{
-    width: 35vw;
-  }
-  .box2-color {
-    height: 1917px;
-  }
-  .left{
-    margin-right: 250px;
-    margin-left: 250px;
-  }
-
-}
 @media (max-width: 768px){
   h2{
     font-size: 20px;
