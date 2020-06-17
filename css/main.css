@@ -92,6 +92,14 @@ a{
   text-decoration: none;
 
 }
+.video a{
+  color: #FFFFFF;
+
+}
+.video a:hover{
+  color:#0500FF;
+
+}
 .menu a{
   color: #FFFFFF;
 
