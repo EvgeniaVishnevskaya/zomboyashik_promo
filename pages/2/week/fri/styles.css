@@ -1,15 +1,15 @@
-@import "../../css/reset.css";
+@import "../../../../css/reset.css";
 @font-face {
   font-family: Bold;
-  src: url(../../fonts/AkzidenzGroteskPro/AkzidenzGroteskPro-Bold.ttf);
+  src: url(../../../../fonts/AkzidenzGroteskPro/AkzidenzGroteskPro-Bold.ttf);
 }
 @font-face {
   font-family: BoldCondenced;
-  src: url(../../fonts/AkzidenzGroteskPro/AkzidenzGroteskPro-BoldCn.ttf);
+  src: url(../../../../fonts/AkzidenzGroteskPro/AkzidenzGroteskPro-BoldCn.ttf);
 }
 @font-face {
   font-family: Regular;
-  src: url(../../fonts/AkzidenzGroteskPro/AkzidenzGroteskPro-Regular.ttf);
+  src: url(../../../../fonts/AkzidenzGroteskPro/AkzidenzGroteskPro-Regular.ttf);
 }
 body{
   background-color: #4C0067;
@@ -23,12 +23,6 @@ body{
 }
 .tpl_hamburger{
   display: none;
-}
-.week a{
-  color: #FFFFFF;
-}
-.week a:hover{
-  color: #4C0067;
 }
 h2{
   font-family: BoldCondenced;
@@ -81,6 +75,12 @@ a{
 }
 .footter a:hover{
   color: #BD00FF;
+}
+.week a{
+  color: #FFFFFF;
+}
+.week a:hover{
+  color: #4C0067;
 }
 .ellipse1{
   width: 843px;
